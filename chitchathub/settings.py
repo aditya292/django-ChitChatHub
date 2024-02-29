@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-=+3h9a4o#1%hxm81%t5%qa1b%3uh5v0=qf+e$b%(fni(9*b9q#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["*","django-chitchathub.onrender"]
 
 
 # Application definition
