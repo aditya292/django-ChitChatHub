@@ -78,15 +78,15 @@ WSGI_APPLICATION = 'chitchathub.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    # 'sqlite': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': BASE_DIR / 'db.sqlite3',
-    # },
-    'default': dj_database_url.config(
-        # Replace this value with your local database's connection string.
-        default='postgres://chitchathub_database_render_user:jo3IEZ18IEGlXoEQE1id1iFWWdMVTqzv@dpg-cnfkovtjm4es73eo91ug-a/chitchathub_database_render',
-        conn_max_age=600
-    )
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    },
+    # 'default': dj_database_url.config(
+    #     # Replace this value with your local database's connection string.
+    #     default='postgres://chitchathub_database_render_user:jo3IEZ18IEGlXoEQE1id1iFWWdMVTqzv@dpg-cnfkovtjm4es73eo91ug-a/chitchathub_database_render',
+    #     conn_max_age=600
+    # )
 }
 
 
