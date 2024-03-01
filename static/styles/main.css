@@ -442,7 +442,7 @@ a {
   top: 60%;
 }
 .activity_layout {
-  top: 115%;
+  transform: translate(-50%, -25%);
 }
 
 .layout__boxHeader {
@@ -485,7 +485,7 @@ a {
 }
 @media (max-width: 500px) {
   .activity_layout {
-    top: 50%;
+    top: 350px;
   }
 }
 
